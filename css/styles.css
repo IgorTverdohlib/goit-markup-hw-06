@@ -520,6 +520,10 @@ margin-bottom: 8px;
   /*---------------------------------*/
 
   /*-------our portfolio---------------*/
+.portfolio-img{
+    max-width: 100%;
+        object-fit: cover;
+}
 
 .our-portfolio {
 background-color: #FFFFFF;
@@ -1341,7 +1345,7 @@ column-gap: 24px;
     row-gap: 48px;
     padding-left: 0;
     margin: 0;
-    margin: 0 16px;
+    
 }
 
 .portfolio-list-ittem{ 
@@ -1361,12 +1365,9 @@ width: calc((100% - 48px) / 3);
 }
  
 .footer{
-/* background-color: #2e2f42;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: column; */
+
 padding: 100px 0;
-/* padding-left: 108px; */
+
 }
 .footer-container{
     width: 1158px;
